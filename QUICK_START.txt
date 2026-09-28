@@ -1,0 +1,10 @@
+# 작성자: 다섯 메뉴 모두 이름 또는 닉네임을 기록할 수 있습니다. 이전 데이터의 작성자는 비어 있으며 수정 버튼으로 채울 수 있습니다.
+# v1.1: 시장·섹터·기업 분석·관심종목·회의록의 수정 버튼을 누르면 기존 내용을 불러와 저장할 수 있습니다.
+1. 이 압축파일을 풉니다.
+2. 폴더 안의 파일 전체를 GitHub 저장소 최상단에 올립니다.
+3. Render에서 New Web Service를 누르고 저장소를 선택합니다.
+4. Build Command: pip install -r requirements.txt
+5. Start Command: gunicorn app:app --bind 0.0.0.0:$PORT
+6. Free 요금제를 선택하고 Create Web Service를 누릅니다.
+
+주의: 무료 서버는 재시작 시 기록이 사라질 수 있습니다. 실제 장기 운영 전 영구 저장 설정이 필요합니다.
